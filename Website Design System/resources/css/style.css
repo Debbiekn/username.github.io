@@ -1,0 +1,334 @@
+
+h1 {
+  color: white;
+  background-color:  #2a7178;
+  opacity: 100%;
+  padding-top: 15px;
+  line-height: 3;
+  padding-bottom: 40px;
+ 
+  text-align: center;
+  height: 70px;
+  width: 2400px;
+  border-radius: 10px;
+  text-indent: 0px;
+  background-position: left;
+}
+
+body {
+  background-color: #9c99e5;
+}
+
+.Blend img {
+  background-image: url("resources/css/images/website design.jpeg");
+  height: 2695px;
+  width:2400px;
+  background-position: left;
+  border-radius: 10px;
+  
+
+}
+
+/* dark, medium and light backgrounds / ordered list / */
+
+
+ .Dark h2 {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: left;
+  margin-left: 30px; 
+}
+
+.Medium h2 {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: left;
+  margin-left: 30px; 
+}
+
+.Light h2 {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: left; 
+  margin-left: 30px;
+}
+
+.type h2 {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: left; 
+  margin-left: 30px;
+}
+
+h4 {
+  font-family: 'Newsreader', serif;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: left; 
+  margin-left: 30px;
+}
+
+
+
+/*  unordered lists , every color displayed*/
+#purple {
+  list-style: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  background-color: #36013F;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#burgundy {
+  list-style: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  background-color: #63313A;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#deepblue {
+  list-style: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  background-color: #0006B1;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#pureorange {
+  list-style: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  background-color: #FF9F00;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+
+#goldenyellow {
+  list-style: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  background-color: #ffdf00;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+
+#softgreen {
+  list-style: none;
+  color: white;
+  width: 150px;
+  height: 150px;
+  background-color: #a6dc70;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#limegreen {
+  list-style: none;
+  color: rgb(203, 192, 192);
+  width: 150px;
+  height: 150px;
+  background-color: #f0FFEC;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#violet {
+  list-style: none;
+  color: rgb(203, 192, 192);
+  width: 150px;
+  height: 150px;
+  background-color: #f2ecff;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#grayishcyan {
+  list-style: none;
+  color: rgb(203, 192, 192);
+  width: 150px;
+  height: 150px;
+  background-color: #d9f7f7;
+  border-radius: 10px;
+  margin-left: 30px;
+
+}
+
+/* Table , table rows, and table data */
+
+table {
+
+  color: white;
+  text-align: left;
+  height: 255px;
+  width: 450px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+ }
+
+ tr {
+  text-align: left;
+  line-height: 1.2;
+ }
+
+
+td {
+  text-indent: 30px;
+  line-height: 1.2;
+  display: inline-block;
+
+}
+
+/* h3 heading classes, to specify each character style, name and type....*/
+
+.Fatface h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-align: left;
+  text-decoration: underline;  
+  text-indent: 30px;
+  line-height: 0;
+  font-size: 20px;
+}
+
+
+.News h3 {
+  font-family: 'Newsreader', serif;
+  color: white;
+  text-align: left;
+  text-decoration: underline;  
+  text-indent: 30px;
+  line-height: 0;
+  font-size: 20px;
+}
+
+.Rob h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: left;
+  text-decoration: underline;  
+  text-indent: 30px;
+  line-height: 0;
+  font-size: 20px;
+}
+
+
+/* classes for each paragragh, inside of the table - to specify individual characteristics...*/
+
+.quick {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.brown {
+  font-weight: normal;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.fox {
+  font-weight:lighter;
+  font-size: 18px;
+  font-style:normal;
+  text-transform: capitalize;
+}
+
+/* Table class for textstyles */
+
+.mystyles {  
+  color: white;
+  text-align: left;
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  opacity: 85%;
+}
+
+/* classes for each paragraph inside of the table - typefaces I may use for headings, subheadings eg..'Abril Fatface' size 22px..*/
+
+
+.Text h3 {
+  font-family: 'Newsreader', serif;
+  color: white;
+  text-align: left;
+  text-decoration: underline;  
+  text-indent: 30px;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.Main {
+  font-family: 'Newsreader', serif;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;  
+  text-indent: 30px;
+  line-height: 1.2;
+  font-size: 25px;
+  height: 225px;
+  width: 700px;
+}
+
+.Sub {
+  font-family: 'Newsreader', serif;
+  color: white;
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 30px;
+  line-height: 1.2;
+  font-size: 22px;
+  height: 230px;
+  display:block;
+}
+
+.P {
+  color: white;
+  text-align: left;
+  text-decoration: underline;  
+  text-indent: 30px;
+  line-height: 1.2;
+  height: 200px;
+  font-size: 18px;
+}
+
+
+li {
+  display: inline-block;
+  margin-right: 5px;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+footer {
+  font-size: large;
+  background-color:  #2a7178;
+  height: 70px;
+  width: 2400px;
+  border-radius: 10px;
+  margin-left: 40px;
+
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  line-height: 3;
+
+}
