@@ -118,7 +118,7 @@ img {
     border: 3px solid #36013F;
 
     background-image: url("resources/css/images/debbie-screenshot-20221202-144600.jpg");
-    max-width: 100%;
+    width: 100%;
     height: auto; 
 
     margin-bottom: 2%;
